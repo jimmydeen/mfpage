@@ -28,6 +28,15 @@ body {
     
 }   
 
+.main-title {
+    display: flex;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
 
 a {
     text-decoration: none;
