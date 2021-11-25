@@ -1,11 +1,9 @@
-html, body {
-    width: 100vh;
-}
-
 body {
     font-family: "Roboto", sans-serif ;
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    margin:0;
     
 }
 
@@ -14,6 +12,8 @@ body {
     background: #1f2937;
     display: flex;
     flex-direction: column;  
+    padding: 10px 100px;
+    row-gap: 75px;
 }
 
 .banner {
@@ -30,14 +30,47 @@ body {
 
 .main-title {
     display: flex;
-    
+    margin: 20px;   
+    padding-bottom: 100px;
+    column-gap: 100px;
+    justify-content: center;
 }
 
 .content {
     display: flex;
     flex-direction: column;
 }
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: -60px;
+}
 
+.subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top-button {
+    display: flex;
+    justify-content: center;
+    max-width: 80px;
+    padding: 8px;
+}
+
+.placeholder-image {
+        display:flex;
+        align-items: center;
+        
+        
+        scale: 1;
+}
+
+.logo {
+    width: 75px;
+    height: auto;
+}
 a {
     text-decoration: none;
 }
