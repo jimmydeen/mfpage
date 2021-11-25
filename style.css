@@ -129,3 +129,10 @@ ul {
     border-width: 5px; 
     margin-bottom: 15px;
 }
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    
+}
