@@ -100,6 +100,9 @@ ul {
 
 .montage-title {
     margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 .image-container {
@@ -109,10 +112,13 @@ ul {
     gap: 52px;
 
 }
-
 .info {
     max-width: 300px;
-    
+
+}
+
+.text {
+    font-size: 18px;
 }
 
 .imgs {
@@ -120,5 +126,6 @@ ul {
     width: 300px;
     border-style: solid;
     border-color: black;
-    border-width: 5px;
+    border-width: 5px; 
+    margin-bottom: 15px;
 }
