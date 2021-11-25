@@ -132,6 +132,8 @@ ul {
 
 .testimonial {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
     padding: 100px;
@@ -142,5 +144,13 @@ ul {
     font-style: italic;
     font-weight: lighter;
     font-size: 42px;
+    margin-bottom: 30px;
 
+
+}
+
+.author {
+    align-self: flex-end;
+    margin-right: 950px;
+    font-weight: bold;
 }
