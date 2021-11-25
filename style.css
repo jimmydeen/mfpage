@@ -59,6 +59,8 @@ body {
     justify-content: center;
     max-width: 80px;
     padding: 8px;
+    border-radius: 5px;
+    font-weight: bolder;
 }
 
 .placeholder-image {
@@ -83,7 +85,7 @@ a, a:visited, a:hover, a:active {
     color: inherit;
   }
 
-  
+
 ul {
     list-style: none;
 }
