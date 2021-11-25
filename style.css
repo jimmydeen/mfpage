@@ -151,8 +151,8 @@ ul {
 }
 
 .author {
-    align-self: flex-end;
-    margin-right: 950px;
+    align-self: center;
+    margin-right: -125px;
     font-weight: bold;
 }
 
