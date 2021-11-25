@@ -25,6 +25,8 @@ body {
 .links {
     display: flex;
     gap: 20px;
+    color: #E5E7EB;
+    font-size: 18px;
     
 }   
 
@@ -62,9 +64,11 @@ body {
 .placeholder-image {
         display:flex;
         align-items: center;
-        
-        
-        scale: 1;
+        font-size: 48px;
+}
+
+.placeholder {
+    height: 5em;
 }
 
 .logo {
@@ -75,6 +79,11 @@ a {
     text-decoration: none;
 }
 
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+  
 ul {
     list-style: none;
 }
