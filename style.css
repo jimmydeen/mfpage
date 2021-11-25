@@ -134,5 +134,6 @@ ul {
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
-    
+    padding: 100px;
+
 }
