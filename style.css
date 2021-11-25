@@ -137,3 +137,10 @@ ul {
     padding: 100px;
 
 }
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 42px;
+
+}
