@@ -32,7 +32,6 @@ body {
 
 .main-title {
     display: flex;
-    margin: 20px;   
     padding-bottom: 100px;
     column-gap: 100px;
     justify-content: center;
@@ -46,7 +45,7 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    margin-bottom: -60px;
+    
 }
 
 .subtitle {
@@ -65,12 +64,16 @@ body {
 
 .placeholder-image {
         display:flex;
-        align-items: center;
-        font-size: 48px;
+        align-items: flex-end;
+        
+        
+
 }
 
 .placeholder {
-    height: 5em;
+    height: 375px;
+    width: auto;
+    
 }
 
 .logo {
@@ -91,9 +94,7 @@ ul {
 }
 
 .montage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     
 }
 
@@ -106,19 +107,18 @@ ul {
     align-items: center;
     justify-content: center;
     gap: 52px;
-    
-    
-    
 
 }
 
 .info {
     max-width: 300px;
-    display: inline-flex;
-    justify-content: center;
+    
 }
 
 .imgs {
     height: 300px;
     width: 300px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
 }
